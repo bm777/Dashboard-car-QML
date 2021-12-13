@@ -30,10 +30,10 @@ Rectangle {
         }
     }
     Text {
-        text: qsTr(Math.round(value * 100) + "%")
         font{family: "Comfortaa"; pointSize: 10; bold: true}
         x: -parent.width *0.25 - width
         anchors.verticalCenter: parent.verticalCenter
         color: "#05a3e3"
+        text: "70%"
     }
 }
